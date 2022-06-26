@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Code editor</title>
+	<link rel="stylesheet" href="style.css" type="text/css">	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.6.0/ace.min.js"
+	integrity="sha512-Ky7AOm/5oRYp5QzV9diL95tE/OKjzfAkugQ+llHy1scOlzIyAt2SoyriapPAZTvtZNL/xbYI1Gvt5jJYurPBdw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"
+	type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="menu-bar">
+		<h1>snehil kumar</h1>
+		<div id="menus">
+			<div id="tabSizeDiv">
+				Tab-Size
+				<button id="decTabSizeButton">-</button>
+				<span id="tabSizeSpan"></span>
+				<button id="incTabSizeButton">+</button>
+			</div>
+			<div id="fontSizeDiv">
+				Font-Size
+				<button id="decFontSizeButton">-</button>
+				<span id="fontSizeSpan"></span>
+				<button id="incFontSizeButton">+</button>
+			</div>
+		</div>
+  </div>
+
+	<div id="main">
+		<div id="editor"></div>
+		<div id="output"></div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

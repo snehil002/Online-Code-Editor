@@ -1,0 +1,38 @@
+*{
+  margin:0;
+}
+h1{
+  text-align: center;
+  background: palegreen;
+  width: 200px;
+}
+#main{
+  display: flex;
+  flex-flow: row wrap;
+  background: greenyellow;
+}
+#editor {
+  width: 50%;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 90vh;
+}
+#output{
+  width: 50%;
+  height: 50px;
+  background: pink;
+}
+#menu-bar{
+  display: flex;
+  flex-flow: row wrap;
+}
+#menus{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+#tabSizeDiv{
+  
+}
